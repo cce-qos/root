@@ -109,10 +109,20 @@ APR helps to:
 
 - `quantum_interface.py`:
   - interface for QAOA backend  
+  - QUBO → Ising Hamiltonian mapping *(work in progress)*  
+  - construction of cost Hamiltonian for QAOA *(work in progress)*  
 
 ---
 
-### Experiments and Analysis
+## Quantum Optimization (Work in Progress)
+
+- QAOA integration under development
+- Initial QUBO → Ising mapping implemented
+- Experiments planned for comparison with classical solvers
+
+
+
+### Experiments and Analysis(work in progress)
 - `run_experiment.py`:
   - runs multiple workloads and seeds  
   - logs metrics (cost, latency, DRAM usage, feasibility, runtime)
